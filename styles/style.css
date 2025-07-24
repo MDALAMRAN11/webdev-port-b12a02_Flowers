@@ -123,3 +123,45 @@ main .section-one .left-side p {
   margin: 1.5rem auto;
   font-weight: 500;
 }
+
+/*section four*/
+.section-four {
+  text-align: center;
+}
+.section-four h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/*section five*/
+.section-five .item {
+    position: relative;
+}
+.section-five .item .item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.section-five .item p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.section-five {
+  display: grid;
+  grid-template-areas:
+    "bloom zabo zabo"
+    "ana zabo zabo";
+  gap: 1rem;
+}
+.section-five .item-1 {
+  grid-area: bloom;
+}
+.section-five .item-2 {
+  grid-area: ana;
+}
+.section-five .item-3 {
+  grid-area: zabo;
+}
