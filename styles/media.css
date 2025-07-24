@@ -43,11 +43,33 @@
     margin: 1rem 1rem;
   }
   /*section-six*/
+  .section-six {
+    margin: 1rem 0;
+  }
   .section-six .section-input {
-    max-width: 100%;
+    max-width: 90%;
   }
   .section-six .section-input .input-box {
     width: 100%;
     margin: 3rem auto;
+  }
+
+  /*section seven*/
+  footer .last-footer {
+    flex-direction: column;
+    width: 100%;
+    /* margin: auto 2rem; */
+    padding-left: 1rem;
+    margin: 1rem auto;
+    gap: 2rem;
+  }
+  footer .last-footer .content p {
+    margin-right: 3rem;
+  }
+  .last-footer .page-link {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .last-footer .social-links {
+    width: 90vw;
   }
 }
