@@ -1,0 +1,65 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main > section {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*shared styles*/
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gray {
+  color: #8987a1;
+}
+.black {
+  color: black;
+}
+.red {
+  color: #e95a08;
+}
+
+/*head*/
+header .first-nav {
+  max-width: 72rem;
+  margin: 2rem auto;
+}
+header .right-side button {
+  border: none;
+  background-color: transparent;
+}
+header .right-side button {
+  margin-left: 3rem;
+}
+
+/*main*/
+
+/*section one*/
+.section-one .left-side h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+main .section-one .left-side p {
+  color: #7a7c7f;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.section-one .left-side {
+  flex: 1;
+}
