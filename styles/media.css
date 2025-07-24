@@ -11,4 +11,24 @@
   header .first-nav {
     margin: 0 0.5rem;
   }
+  .section-two .section-content,
+  .section-one .left-side {
+    margin: 0 1rem;
+  }
+  .section-two .section-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 1rem;
+  }
+  /*section three*/
+  .section-three .author-plants .author-img {
+    display: none;
+  }
+  .section-three .author-plants .flower-plants {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .section-three .author-plants .plant-content {
+    margin: auto 1rem;
+    padding-left: 2rem;
+  }
 }
