@@ -11,7 +11,7 @@
 }
 main > section {
   max-width: 72rem;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 img {
   width: 100%;
@@ -25,13 +25,28 @@ img {
   align-items: center;
 }
 .gray {
-  color: #8987a1;
+  color: #7a7c7f;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 .black {
   color: black;
 }
 .red {
   color: #e95a08;
+}
+.center {
+  text-align: center;
+}
+.red-btn {
+  background-color: #e95a08;
+  font-weight: bolder;
+  color: #ffffff;
+  border: none;
+  margin: 0 auto;
+  height: 2rem;
+  width: 100%;
 }
 
 /*head*/
@@ -62,4 +77,15 @@ main .section-one .left-side p {
 }
 .section-one .left-side {
   flex: 1;
+}
+
+/*section two*/
+.section-two .section-content {
+  text-align: center;
+}
+.section-two .section-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 4rem auto;
 }

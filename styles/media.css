@@ -1,6 +1,14 @@
 /*mobile devices*/
 @media only screen and (max-width: 575px) {
+  main .section-one {
+    flex-direction: column-reverse;
+    text-align: start;
+    margin: auto;
+  }
   .first-nav .right-side .sub-buttons {
     display: none;
+  }
+  header .first-nav {
+    margin: 0 0.5rem;
   }
 }
