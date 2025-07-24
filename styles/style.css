@@ -57,9 +57,11 @@ header .first-nav {
 header .right-side button {
   border: none;
   background-color: transparent;
-}
-header .right-side button {
   margin-left: 3rem;
+  outline: none;
+}
+header .right-side button:focus {
+  outline: none;
 }
 
 /*main*/
@@ -135,7 +137,7 @@ main .section-one .left-side p {
 
 /*section five*/
 .section-five .item {
-    position: relative;
+  position: relative;
 }
 .section-five .item .item-content {
   position: absolute;
@@ -145,9 +147,25 @@ main .section-one .left-side p {
   text-align: center;
 }
 .section-five .item p {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.section-five .item button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.section-five .item button:hover {
+  transition: color 0.3s ease;
+  font-weight: bolder;
+  font-size: large;
+  box-shadow: 5px 5px 10px white;
 }
 .section-five {
   display: grid;

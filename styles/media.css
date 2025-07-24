@@ -31,4 +31,15 @@
     margin: auto 1rem;
     padding-left: 2rem;
   }
+  /*section five*/
+  .section-five {
+    grid-template-areas:
+      "bloom bloom bloom"
+      "ana ana ana"
+      "zabo zabo zabo";
+  }
+  main > section {
+    max-width: 72rem;
+    margin: 1rem 1rem;
+  }
 }
