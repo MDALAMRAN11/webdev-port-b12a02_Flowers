@@ -183,3 +183,46 @@ main .section-one .left-side p {
 .section-five .item-3 {
   grid-area: zabo;
 }
+
+/*section six*/
+.section-six {
+  max-width: 100%;
+  background-image: url("../assets/news-letter-bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-six .section-input {
+  text-align: center;
+  margin: 8rem auto;
+  max-width: 43rem;
+}
+.section-six .section-input .input-box {
+  width: 43rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin: 2rem auto;
+}
+.section-six .section-input .input-box > :first-child {
+  flex: 2;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.section-six .section-input .input-box > :last-child {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  background-color: #e95a08;
+  color: white;
+  cursor: pointer;
+}
+.section-six .section-input h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}

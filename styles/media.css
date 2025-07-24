@@ -42,4 +42,12 @@
     max-width: 72rem;
     margin: 1rem 1rem;
   }
+  /*section-six*/
+  .section-six .section-input {
+    max-width: 100%;
+  }
+  .section-six .section-input .input-box {
+    width: 100%;
+    margin: 3rem auto;
+  }
 }
